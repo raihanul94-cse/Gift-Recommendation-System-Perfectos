@@ -1,0 +1,439 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/*index page css*/
+.ic {
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 1px;
+}
+
+.iw {
+    font-size: 30px;
+    color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.card-item {
+    background-color: rgb(240, 240, 240);
+}
+
+.caption-color i {
+    font-size: 60px;
+    color: blue;
+}
+
+.caption-color p {
+    font-size: 30px;
+    color: blue;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.input-quantity {
+    width: 12%;
+    margin-left: 2px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
+    color: #ffffff;
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-list li a:before {
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(236, 236, 236);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 2px 20px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*index page css ends*/
+.product-list-header {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.product-list-footer {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.product-total {
+    float: right;
+    font-size: 20px;
+    font-family: Sans-serif;
+}
+
+.profile-body {
+    margin-top: 20px;
+}
+
+.emp-profile {
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+.profile-img {
+    text-align: center;
+}
+
+.profile-img img {
+    width: 70%;
+    height: 100%;
+}
+
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.profile-head h5 {
+    color: #333;
+}
+
+.profile-head h6 {
+    color: #0062cc;
+}
+
+.profile-edit-btn {
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+.proile-rating {
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+
+.proile-rating span {
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.profile-head .nav-tabs {
+    margin-bottom: 5%;
+}
+
+.profile-head .nav-tabs .nav-link {
+    font-weight: 600;
+    border: none;
+}
+
+.profile-head .nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 2px solid #0062cc;
+}
+
+.profile-work {
+    padding: 14%;
+    margin-top: -15%;
+}
+
+.profile-work p {
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+.profile-work a {
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.profile-work ul {
+    list-style: none;
+}
+
+.profile-tab label {
+    font-weight: 600;
+}
+
+.profile-tab p {
+    font-weight: 600;
+    color: #0062cc;
+}
+
+#mainpage {
+    display: none;
+}
+
+#preloader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+}
+
+
+.loader {
+    width: 150px;
+    height: 150px;
+    margin: 40px auto;
+    transform: rotate(-45deg);
+    font-size: 0;
+    line-height: 0;
+    animation: rotate-loader 5s infinite;
+    padding: 25px;
+    border: 1px solid #cf303d;
+}
+
+.loader .loader-inner {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+}
+
+.loader .loading {
+    position: absolute;
+    background: #cf303d;
+}
+
+.loader .one {
+    width: 100%;
+    bottom: 0;
+    height: 0;
+    animation: loading-one 1s infinite;
+}
+
+.loader .two {
+    width: 0;
+    height: 100%;
+    left: 0;
+    animation: loading-two 1s infinite;
+    animation-delay: 0.25s;
+}
+
+.loader .three {
+    width: 0;
+    height: 100%;
+    right: 0;
+    animation: loading-two 1s infinite;
+    animation-delay: 0.75s;
+}
+
+.loader .four {
+    width: 100%;
+    top: 0;
+    height: 0;
+    animation: loading-one 1s infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes loading-one {
+    0% {
+        height: 0;
+        opacity: 1;
+    }
+
+    12.5% {
+        height: 100%;
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        height: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes loading-two {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+
+    12.5% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes rotate-loader {
+    0% {
+        transform: rotate(-45deg);
+    }
+
+    20% {
+        transform: rotate(-45deg);
+    }
+
+    25% {
+        transform: rotate(-135deg);
+    }
+
+    45% {
+        transform: rotate(-135deg);
+    }
+
+    50% {
+        transform: rotate(-225deg);
+    }
+
+    70% {
+        transform: rotate(-225deg);
+    }
+
+    75% {
+        transform: rotate(-315deg);
+    }
+
+    95% {
+        transform: rotate(-315deg);
+    }
+
+    100% {
+        transform: rotate(-405deg);
+    }
+}
+
+.card-product{
+    width: 80%;
+}
+
+div[data-acc-content] {
+    display: none;
+}
+
+div[data-acc-step]:not(.open) {
+    background: #f2f2f2;
+}
+
+div[data-acc-step]:not(.open) h5 {
+    color: #777;
+}
+
+div[data-acc-step]:not(.open) .badge-primary {
+    background: #ccc;
+}
+
+#checkout{
+    cursor: pointer;
+}

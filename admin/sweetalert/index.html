@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sweetalert2</title>
+	<link rel="stylesheet" href="sweetalert.css">
+	<script src="sweetalert.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+	function fire() {
+		swal({
+			position:'top-end',
+			type:'success',
+			title:'New Category Added!',
+			showConfirmButton: false,
+			timer: 2500
+		})
+	}
+</script>
+<button onclick="fire();">Click Me</button>
+</body>
+</html>
